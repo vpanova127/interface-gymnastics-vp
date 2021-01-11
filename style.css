@@ -1,0 +1,476 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(245, 8, 40);
+    background: radial-gradient(circle, rgb(0, 0, 0) 14%, rgb(33, 33, 113) 100%);
+}
+
+.screen{
+    width: 600px;
+    height: 500px;
+    border-radius: 50%;
+    top: 160px;
+    left: 400px;
+    background: rgb(252,124,5);
+    background: linear-gradient(0deg, rgba(252,124,5,1) 0%, rgba(253,243,45,1) 100%);
+    border: 15px dotted rgb(0, 140, 255);
+}
+
+
+.star-1{
+ width: 7px;
+ height: 7px;
+ border-radius: 50%;
+ top: 38px;
+ left: 240px;
+ background-color:white;
+ filter: blur(1px);
+}
+
+.star-1:hover{
+transform: scale(5);
+}
+
+.star-2{
+width: 7px;
+height: 7px;
+border-radius: 50%;
+top: 95px;
+left: 60px;
+background-color: rgb(255, 255, 255);
+filter: blur(1px)
+}
+
+.star-2:hover{
+background-color: yellow;
+}
+
+.star-3{
+width: 8px;
+height: 8px;
+border-radius: 50%;
+top: 360px;
+left: 120px;
+background-color: rgb(255, 255, 255);
+filter: blur(1px);
+animation: shrink 1s infinite alternate;
+}
+
+@keyframes shrink{
+from{
+    transform: scaleX(1.5); 
+}to{
+    transform: scaleX(1);
+}
+}
+
+.star-4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 605px;
+    left: 270px;
+    background-color: rgb(255, 255, 255);
+    filter: blur(1px);
+}
+
+.star-4:hover{
+transform: scale(5);
+}
+
+.star-5{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 700px;
+    left: 1000px;
+    background-color: rgb(255, 255, 255);
+    filter: blur(1px);
+    animation: shrink1 1s infinite alternate;
+}
+
+@keyframes shrink1{
+    from{
+        transform: scaleX(1.5); 
+    }to{
+        transform: scaleX(1);
+    }
+}
+
+.star-6{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    top: 460px;
+    left: 1150px;
+    background-color: rgb(255, 255, 255);
+    filter: blur(1px);
+}
+
+.star-6:hover{
+    transform: scale(5);
+}
+
+.star-7{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+top: 200px;
+left: 1300px;
+background-color: white;
+filter: blur(1px);
+}
+
+.star-8{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 100px;
+    left: 950px;
+    background-color: white;
+    filter: blur(1px);
+    animation: shrink2 1s infinite alternate;
+
+}
+
+@keyframes shrink2{
+    from{
+        transform: scaleX(1.5); 
+    }to{
+        transform: scaleX(1);
+    }
+}
+
+.circle-1{
+width: 50px;
+height: 50px;
+top: 680px;
+left: 330px;
+background-color: violet;
+border-radius: 200px 200px 47px 47px;
+-moz-border-radius: 200px 200px 47px 47px;
+-webkit-border-radius: 200px 200px 47px 47px;
+border: 1px solid #ffffff;
+animation: colour-change 1s infinite alternate;
+}
+
+@keyframes colour-change{
+from{
+    background-color:rgb(255, 6, 6);
+}to{ 
+    background-color: rgba(253,243,45,1);
+}
+}
+
+.circle-1:hover{
+    transform: rotate(180deg);
+}
+
+.circle-4{
+    width: 30px;
+    height: 30px;
+    top: 693px;
+    left: 270px;
+    background-color: violet;
+    border-radius: 200px 200px 47px 47px;
+    -moz-border-radius: 200px 200px 47px 47px;
+    -webkit-border-radius: 200px 200px 47px 47px;
+    border: 1px solid #ffffff;
+    animation: colour-change3 1s infinite alternate;
+    transform: rotate(180deg);
+}
+
+.circle-4:hover{
+    transform: skew(45deg)
+}
+
+
+@keyframes colour-change3{
+    from{
+        background-color:rgb(219, 19, 186);
+    }to{ 
+        background-color: rgb(57, 24, 243);
+    }
+}
+
+.circle-2{
+ width: 30px;
+height: 30px;
+top: 693px;
+left: 405px;
+border-radius: 50%;
+background-color: rgb(11, 190, 26);
+border: 1px solid #ffffff;
+animation: colour-change1 1s infinite alternate;
+}
+
+@keyframes colour-change1{
+    from{
+        background-color:rgb(6, 23, 255);
+    }to{ 
+        background-color: rgb(69, 253, 45);
+    }
+}
+
+.circle-2:hover{
+    transform: scale(2);
+}
+
+
+.circle-3{
+    width: 20px;
+    height: 20px;
+    top: 699px;
+    left: 457px;
+    border-radius: 50%;
+    background-color: rgb(11, 190, 26);
+    border: 1px solid #ffffff;
+    animation: colour-change2 1s infinite alternate;
+}
+       
+@keyframes colour-change2{
+    from{
+        background-color:rgb(205, 6, 255);
+    }to{ 
+        background-color: rgb(253, 146, 45);
+    }
+}
+
+.circle-3:hover{
+    top:630px ;
+    left: 457px;
+}  
+
+.small-screen{
+    width: 200px;
+    height: 300px;
+    top: 120px;
+    left: 200px;
+    background-color: black;
+    border-radius: 200px 200px 0px 0px;
+-moz-border-radius: 200px 200px 0px 0px;
+-webkit-border-radius: 200px 200px 0px 0px;
+border: 0px solid #000000;
+-webkit-box-shadow: -1px 25px 67px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 25px 67px -14px rgba(0,0,0,0.75);
+box-shadow: -1px 25px 67px -14px rgba(0,0,0,0.75);
+
+}
+.screen-main{
+    width: 600px;
+    height: 500px;
+    top: 160px;
+    left: 400px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(252,124,5,1) 0%, rgba(253,243,45,1) 100%);
+    border: 5px solid rgb(0, 140, 255);
+    
+}
+
+.small-screen{
+    width: 448px;
+    height: 225px;
+    background: rgb(0, 0, 0);
+    top: 200px;
+    left: 477px;
+    border-radius: 200px 200px 0px 0px;
+-moz-border-radius: 200px 200px 0px 0px;
+-webkit-border-radius: 200px 200px 0px 0px;
+border: 0px solid #000000;
+
+}
+
+.small-screen-2{
+    width: 294px;
+    height: 160px;
+    border-radius: 200px 200px 0px 0px;
+    -moz-border-radius: 200px 200px 0px 0px;
+    -webkit-border-radius: 200px 200px 0px 0px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(12,69,230) 20%, rgba(255,255,255) 80%);
+    top: 237px;
+    left: 555px;
+}
+
+.the-ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    top: 271px;
+    left: 653px;
+    filter: blur(1px);
+
+}
+
+.the-ball:hover{
+    transform: skew(60deg);
+}   
+
+
+
+.button1{
+    width: 73px;
+    height: 32px;
+    background: radial-gradient(circle, rgba(28,85,171) 0%, rgba(0,0,0) 100%);
+    top: 518px;
+    left: 563px;
+    filter: blur(0.5px);
+    animation: 3s linear 1s infinite alternate slidein;
+    -webkit-box-shadow: 0px 26px 34px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 26px 34px 6px rgba(0,0,0,0.75);
+box-shadow: 0px 26px 34px 6px rgba(0,0,0,0.75);
+}
+
+@keyframes slidein{
+from{ left: 560;}
+to { left: 760px;}
+}
+
+
+.button1:hover{
+   transform: translate(50%);
+}
+
+.circle5{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    top: 600px;
+    left: 610px;
+    filter: blur(3px);   
+    animation: shrink2 1s infinite alternate;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.circle6{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    top: 600px;
+    left: 757px;
+    filter: blur(3px); 
+    animation: shrink 1s infinite alternate;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+@keyframes shrink {
+    from {
+        transform: scaleX(1.5);
+    } to {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes shrink2 {
+    from {
+        transform: scaleX(1.5);
+    } to {
+        transform: scaleX(1);
+    }
+}
+
+.circle7{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    top: 538px;
+    left: 490px;
+    filter: blur(3px); 
+    animation: shrink 1s infinite alternate;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.circle7:hover{
+    transform: scale(56);
+}
+
+.circle8{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    top: 538px;
+    left: 885px;
+    filter: blur(3px); 
+    animation: shrink 1s infinite alternate;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+
+.square1{
+    width: 53px;
+    height: 15px;
+    background-color: rgb(56, 56, 56);
+    top: 184px;
+    left: 269px;
+}
+
+.square2{
+    width: 53px;
+    height: 15px;
+    background-color: rgb(56, 56, 56);
+    top: 300px;
+    left: 269px;
+}
+
+.circlered{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+top: 250px;
+left: 600px;
+animation: shrink 1s infinite alternate;
+background: rgb(251,63,63);
+background: radial-gradient(circle, rgba(251,63,63,1) 16%, rgb(70, 252, 206) 100%);
+}
+
+.small-button{
+    width: 30px;
+    height: 10px;
+    border-radius: 30%;
+    top: 454px;
+    left: 550px;
+    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 3px 36px 39px -24px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 36px 39px -24px rgba(0,0,0,0.75);
+box-shadow: 3px 36px 39px -24px rgba(0,0,0,0.75);
+border: 1px dotted white;
+
+} 
+
+.small-button:hover{
+    transform: rotate(45deg);
+}    
+
+.small-button2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 454px;
+    left: 595px;
+    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 3px 36px 39px -24px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 36px 39px -24px rgba(0,0,0,0.75);
+box-shadow: 3px 36px 39px -24px rgba(0,0,0,0.75);
+border: 1px dotted white;
+
+} 
+
+.small-button2:hover{
+    background-color: blue;
+}    
